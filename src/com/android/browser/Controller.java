@@ -1617,6 +1617,10 @@ public class Controller
                 findOnPage();
                 break;
 
+            case R.id.exit_menu_id:
+                mActivity.finish();
+                break;
+
             case R.id.page_info_menu_id:
                 showPageInfo();
                 break;

@@ -45,6 +45,10 @@
             android:icon="@drawable/ic_bookmark_on_dark"
             android:alphabeticShortcut="d"
             android:visible="@bool/menu_show_bookmarks" />
+        <item 
+            android:id="@+id/exit_menu_id"
+            android:alphabeticShortcut="e"
+            android:title="@string/menu_exit" />
         <group
             android:id="@+id/LIVE_MENU">
             <item
